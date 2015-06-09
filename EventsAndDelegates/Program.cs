@@ -28,7 +28,7 @@ namespace EventsAndDelegates
 
     class A
     {
-        public delegate void TypedDelegate(C c);
+        public delegate void TypedDelegate(CC c);
         public delegate void ADelegate();
 
         public Delegate d;
